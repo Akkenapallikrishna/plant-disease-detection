@@ -1,0 +1,147 @@
+{
+  "run": "resnet50_rgb_noise",
+  "args": {
+    "model": "resnet50",
+    "color_mode": "rgb",
+    "noise": "True",
+    "epochs_head": "5",
+    "epochs_finetune": "10",
+    "lr_head": "0.001",
+    "lr_finetune": "0.0001",
+    "patience": "3",
+    "batch_size": "32",
+    "seed": "42",
+    "data_dir": "C:\\Users\\krish\\OneDrive\\Desktop\\Plant-disease-detection\\data",
+    "quick": "False",
+    "no_pretrained": "False"
+  },
+  "minutes": 35.619837482770286,
+  "history": [
+    {
+      "phase": "head",
+      "epoch": 1,
+      "train_loss": 2.3141533769880023,
+      "train_acc": 0.38285714285714284,
+      "val_loss": 2.1158778180016413,
+      "val_acc": 0.5422222222222223,
+      "seconds": 95.6550190448761
+    },
+    {
+      "phase": "head",
+      "epoch": 2,
+      "train_loss": 1.6358307618186587,
+      "train_acc": 0.679047619047619,
+      "val_loss": 1.7588247341579861,
+      "val_acc": 0.6222222222222222,
+      "seconds": 91.69822096824646
+    },
+    {
+      "phase": "head",
+      "epoch": 3,
+      "train_loss": 1.2766231007803055,
+      "train_acc": 0.7571428571428571,
+      "val_loss": 1.52234026061164,
+      "val_acc": 0.7155555555555555,
+      "seconds": 123.18834590911865
+    },
+    {
+      "phase": "head",
+      "epoch": 4,
+      "train_loss": 1.0458799496151152,
+      "train_acc": 0.8,
+      "val_loss": 1.3586106787787544,
+      "val_acc": 0.72,
+      "seconds": 154.5885045528412
+    },
+    {
+      "phase": "head",
+      "epoch": 5,
+      "train_loss": 0.9028045414742969,
+      "train_acc": 0.8152380952380952,
+      "val_loss": 1.2523217741648356,
+      "val_acc": 0.72,
+      "seconds": 155.64224219322205
+    },
+    {
+      "phase": "finetune",
+      "epoch": 1,
+      "train_loss": 0.9015983239809672,
+      "train_acc": 0.7409523809523809,
+      "val_loss": 0.9391223282284207,
+      "val_acc": 0.7244444444444444,
+      "seconds": 190.61042380332947
+    },
+    {
+      "phase": "finetune",
+      "epoch": 2,
+      "train_loss": 0.34676548787525724,
+      "train_acc": 0.900952380952381,
+      "val_loss": 0.748764321009318,
+      "val_acc": 0.7911111111111111,
+      "seconds": 189.89334392547607
+    },
+    {
+      "phase": "finetune",
+      "epoch": 3,
+      "train_loss": 0.23338875838688442,
+      "train_acc": 0.9352380952380952,
+      "val_loss": 0.6394805579715305,
+      "val_acc": 0.8044444444444444,
+      "seconds": 193.2036521434784
+    },
+    {
+      "phase": "finetune",
+      "epoch": 4,
+      "train_loss": 0.1565193072670982,
+      "train_acc": 0.9580952380952381,
+      "val_loss": 0.6756844210624695,
+      "val_acc": 0.7866666666666666,
+      "seconds": 189.4670205116272
+    },
+    {
+      "phase": "finetune",
+      "epoch": 5,
+      "train_loss": 0.09186715439671563,
+      "train_acc": 0.9752380952380952,
+      "val_loss": 0.5769917604658339,
+      "val_acc": 0.8044444444444444,
+      "seconds": 141.5576572418213
+    },
+    {
+      "phase": "finetune",
+      "epoch": 6,
+      "train_loss": 0.06969492957705543,
+      "train_acc": 0.9866666666666667,
+      "val_loss": 0.5269790074560378,
+      "val_acc": 0.8355555555555556,
+      "seconds": 111.9014983177185
+    },
+    {
+      "phase": "finetune",
+      "epoch": 7,
+      "train_loss": 0.059997336743842986,
+      "train_acc": 0.9857142857142858,
+      "val_loss": 0.5444308026631673,
+      "val_acc": 0.84,
+      "seconds": 150.13292860984802
+    },
+    {
+      "phase": "finetune",
+      "epoch": 8,
+      "train_loss": 0.04644345017770926,
+      "train_acc": 0.9885714285714285,
+      "val_loss": 0.5523175112406413,
+      "val_acc": 0.8311111111111111,
+      "seconds": 189.9927475452423
+    },
+    {
+      "phase": "finetune",
+      "epoch": 9,
+      "train_loss": 0.049500396251678465,
+      "train_acc": 0.9876190476190476,
+      "val_loss": 0.6786143345303005,
+      "val_acc": 0.7911111111111111,
+      "seconds": 158.95159029960632
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[project]
+name = "plant-disease-detection"
+version = "1.0.0"
+description = "Transfer learning (ResNet50 / DenseNet121) for plant leaf disease detection with Grad-CAM explainability"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

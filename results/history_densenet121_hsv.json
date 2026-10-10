@@ -1,0 +1,156 @@
+{
+  "run": "densenet121_hsv",
+  "args": {
+    "model": "densenet121",
+    "color_mode": "hsv",
+    "noise": "False",
+    "epochs_head": "5",
+    "epochs_finetune": "10",
+    "lr_head": "0.001",
+    "lr_finetune": "0.0001",
+    "patience": "3",
+    "batch_size": "32",
+    "seed": "42",
+    "data_dir": "C:\\Users\\krish\\OneDrive\\Desktop\\Plant-disease-detection\\data",
+    "quick": "False",
+    "no_pretrained": "False"
+  },
+  "minutes": 18.577627992630006,
+  "history": [
+    {
+      "phase": "head",
+      "epoch": 1,
+      "train_loss": 2.414350192660377,
+      "train_acc": 0.26761904761904765,
+      "val_loss": 2.056714011298286,
+      "val_acc": 0.39555555555555555,
+      "seconds": 72.82438397407532
+    },
+    {
+      "phase": "head",
+      "epoch": 2,
+      "train_loss": 1.7251134865624564,
+      "train_acc": 0.54,
+      "val_loss": 1.6618491130405002,
+      "val_acc": 0.48,
+      "seconds": 69.24919724464417
+    },
+    {
+      "phase": "head",
+      "epoch": 3,
+      "train_loss": 1.3501127011435372,
+      "train_acc": 0.6685714285714286,
+      "val_loss": 1.379279103808933,
+      "val_acc": 0.6311111111111111,
+      "seconds": 70.26429915428162
+    },
+    {
+      "phase": "head",
+      "epoch": 4,
+      "train_loss": 1.1578435125805082,
+      "train_acc": 0.7133333333333334,
+      "val_loss": 1.2255044433805677,
+      "val_acc": 0.6666666666666666,
+      "seconds": 71.39906668663025
+    },
+    {
+      "phase": "head",
+      "epoch": 5,
+      "train_loss": 0.9890878289086478,
+      "train_acc": 0.7733333333333333,
+      "val_loss": 1.093232192463345,
+      "val_acc": 0.6977777777777778,
+      "seconds": 71.50901627540588
+    },
+    {
+      "phase": "finetune",
+      "epoch": 1,
+      "train_loss": 1.014971406573341,
+      "train_acc": 0.7104761904761905,
+      "val_loss": 0.8835143560833402,
+      "val_acc": 0.7333333333333333,
+      "seconds": 76.84274935722351
+    },
+    {
+      "phase": "finetune",
+      "epoch": 2,
+      "train_loss": 0.6250401746659052,
+      "train_acc": 0.8428571428571429,
+      "val_loss": 0.7466521840625339,
+      "val_acc": 0.7822222222222223,
+      "seconds": 77.79349422454834
+    },
+    {
+      "phase": "finetune",
+      "epoch": 3,
+      "train_loss": 0.4978247581209455,
+      "train_acc": 0.8771428571428571,
+      "val_loss": 0.6569713261392381,
+      "val_acc": 0.8133333333333334,
+      "seconds": 76.66530013084412
+    },
+    {
+      "phase": "finetune",
+      "epoch": 4,
+      "train_loss": 0.4154717784836179,
+      "train_acc": 0.9,
+      "val_loss": 0.5999334253205193,
+      "val_acc": 0.8088888888888889,
+      "seconds": 78.58418536186218
+    },
+    {
+      "phase": "finetune",
+      "epoch": 5,
+      "train_loss": 0.35109411540485563,
+      "train_acc": 0.9171428571428571,
+      "val_loss": 0.5568322775099013,
+      "val_acc": 0.8311111111111111,
+      "seconds": 77.30771136283875
+    },
+    {
+      "phase": "finetune",
+      "epoch": 6,
+      "train_loss": 0.28244555115699765,
+      "train_acc": 0.9419047619047619,
+      "val_loss": 0.5343211623032887,
+      "val_acc": 0.8355555555555556,
+      "seconds": 76.44604706764221
+    },
+    {
+      "phase": "finetune",
+      "epoch": 7,
+      "train_loss": 0.239992649328141,
+      "train_acc": 0.9533333333333334,
+      "val_loss": 0.49051254140006173,
+      "val_acc": 0.8311111111111111,
+      "seconds": 73.96641397476196
+    },
+    {
+      "phase": "finetune",
+      "epoch": 8,
+      "train_loss": 0.21587594320376713,
+      "train_acc": 0.96,
+      "val_loss": 0.4746473506424162,
+      "val_acc": 0.84,
+      "seconds": 73.40046787261963
+    },
+    {
+      "phase": "finetune",
+      "epoch": 9,
+      "train_loss": 0.17914843848773412,
+      "train_acc": 0.9742857142857143,
+      "val_loss": 0.46140512426694236,
+      "val_acc": 0.8444444444444444,
+      "seconds": 73.20358657836914
+    },
+    {
+      "phase": "finetune",
+      "epoch": 10,
+      "train_loss": 0.17464703469049364,
+      "train_acc": 0.9647619047619047,
+      "val_loss": 0.4374967323409186,
+      "val_acc": 0.8577777777777778,
+      "seconds": 73.78146624565125
+    }
+  ]
+}

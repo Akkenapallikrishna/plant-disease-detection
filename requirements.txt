@@ -1,0 +1,14 @@
+# Install the CPU build of PyTorch first (much smaller than the CUDA build):
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
+# then:
+#   pip install -r requirements.txt
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.5.2
+pillow==12.3.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pandas==3.0.6
+streamlit==1.65.0
+grad-cam==1.5.7
+pytest==9.1.1

@@ -1,0 +1,21 @@
+# Image data is regenerated with src/prepare_data.py (keeps the repo small)
+data/
+
+# Trained model weights (large binary files)
+models/*.pt
+models/*.pth
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environments
+venv/
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

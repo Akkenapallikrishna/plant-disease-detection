@@ -1,0 +1,8 @@
+run,model,color_mode,trained_with_noise,val_acc,val_loss,test_top1,test_top5,test_macro_f1,test_roc_auc,noisy_test_top1,noisy_test_macro_f1
+resnet50_rgb,resnet50,rgb,False,0.9156,0.2869,0.9333,1.0,0.9318,0.9982,0.88,0.8704
+densenet121_rgb,densenet121,rgb,False,0.8844,0.3323,0.9244,1.0,0.9226,0.9983,0.8622,0.8624
+densenet121_hsv,densenet121,hsv,False,0.8578,0.4375,0.88,0.9911,0.8765,0.9954,0.3689,0.3811
+resnet50_hsv,resnet50,hsv,False,0.8578,0.4178,0.8533,0.9911,0.85,0.9905,0.5733,0.5338
+resnet50_rgb_noise,resnet50,rgb,True,0.8356,0.527,0.8489,0.9911,0.8422,0.9943,0.9022,0.9009
+densenet121_hsv_noise,densenet121,hsv,True,0.7733,0.7724,0.7378,0.9733,0.7046,0.9865,0.6178,0.6298
+resnet50_hsv_noise,resnet50,hsv,True,0.7556,0.8485,0.7289,0.9733,0.7183,0.9743,0.6133,0.5867
